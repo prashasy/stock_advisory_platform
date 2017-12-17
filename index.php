@@ -201,6 +201,7 @@
 
 	.portfolio-container{
 		display:none;
+		height:100%;
 	}
 
 	</style>
@@ -217,7 +218,7 @@
 					<form name="name_form" target="_blank" action='input.php' method="post">
 						<input type="text" name="field_name" value="Name" hidden></input>
 						<input type="text" id='a' required name="name" placeholder="Name">
-						<input type="button" onclick="showfield('name','age','a')" value="Submit">
+						<br><br><center><input type="button" onclick="showfield('name','age','a')" value="Submit"></center>
 					</form>
 				</div>
 		</div>
@@ -226,8 +227,8 @@
 			<p id="inputtext"> We will also need your Age</p>
 			<form name='age_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Age" hidden></input>
-				<input type="number" id='b' name="age" required placeholder="Age"></input><br>
-				<input type="submit" onclick="showfield('age','phone','b')" value="Submit">
+				<input type="number" id='b' name="age" required placeholder="Age"></input><br><br>
+				<center><input type="submit" onclick="showfield('age','phone','b')" value="Submit"></center>
 			</form>
 		</div>
 
@@ -236,7 +237,7 @@
 			<form name='phone_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Phone" hidden></input>
 				<input type="number" id='c' name="phone" required placeholder="Phone"></input><br>
-				<input type="submit" onclick="showfield('phone','aadhar','c')" value="Submit">
+				<br><center><input type="submit" onclick="showfield('phone','aadhar','c')" value="Submit"></center>
 			</form>
 		</div>
 
@@ -245,7 +246,7 @@
 			<form name='aadhar_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Aadhar" hidden></input>
 				<input type="number" id='d' name="aadhar" required placeholder="Aadhar Number"></input><br>
-				<input type="submit" onclick="showfield('aadhar','invest_amount','d')" value="Submit">
+				<br><center><input type="submit" onclick="showfield('aadhar','invest_amount','d')" value="Submit"></>center
 			</form>
 		</div>
 		<div class="field" id="invest_amount" style="text-align:left" align="center">
