@@ -220,7 +220,7 @@
 
 	<body id="primary">		
 		<div class="w3-container w3-teal">
-		<h1 class="w3-container w3-teal"style="text-align:left"> Welcome to Point K2 </h1>
+		<h1 class="w3-container w3-teal"style="text-align:center"> Welcome to Point K2 </h1>
 		
 		<div class="LoginHover" id="name">
 			<p id="inputtext"> Hello Investor! </p><p id="inputtext"> Welcome to the world of wealth creation !!! </p>
@@ -297,7 +297,7 @@
 		</div>
 
 		<div class="field" id="portf_type" style="text-align:left">
-			<p id="inputtext"> We would contact you if important</p>
+			<p id="inputtext"> Please select your portfolio type</p>
 			<form name='portf_type_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Portf_type" hidden></input>
 				<input type="radio" name="portf_type" id='h' required value=1>Point K2 Flagship portfolio</input><br>
