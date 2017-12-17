@@ -246,7 +246,7 @@
 			<form name='aadhar_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Aadhar" hidden></input>
 				<center><input type="number" id='d' name="aadhar" required placeholder="Aadhar Number"></input></center><br>
-				<br><center><input type="submit" onclick="showfield('aadhar','invest_amount','d')" value="Submit"></>center
+				<br><center><input type="submit" onclick="showfield('aadhar','invest_amount','d')" value="Submit"></center>
 			</form>
 		</div>
 		<div class="field" id="invest_amount" style="text-align:left" align="center">
@@ -257,17 +257,17 @@
 				<input type="radio" id='e' name='invest_amount' required value=2>INR 50000</input><br>
 				<input type="radio" id='e' name='invest_amount' required value=3>INR 75000</input><br>
 				<input type="radio" id='e' name='invest_amount' required value=4>INR 100000</input></center><br><br>
-				<input type="submit" onclick="showfield('invest_amount','risk_level','e')" value="Submit">
+				<center><input type="submit" onclick="showfield('invest_amount','risk_level','e')" value="Submit"></center>
 			</form>
 		</div>
 		<div class="field" id="risk_level" style="text-align:left" align="center">
 			<p id="inputtext"> What risk level are you comfortable with?</p>
 			<form name='risk_level_form' action='input.php' target="_blank" method="post">
-			<br><input type="radio" name="risk_level" id='f' required value=1>Risk Averse</input><br>
-				<center><input type="radio" name="risk_level" id='f' required value=2>Risk Neutral</input><br>
+			<br><center><input type="radio" name="risk_level" id='f' required value=1>Risk Averse</input><br>
+				<input type="radio" name="risk_level" id='f' required value=2>Risk Neutral</input><br>
 				<input type="radio" name="risk_level" id='f' required value=3>Risk Seeker</input><br><br>
 				<input type="text" name="field_name" id='f' required value="Risk_level" hidden></center></input>
-				<input type="submit" onclick="showfield('risk_level','invest_horizon','f')" value="Submit">
+				<center><input type="submit" onclick="showfield('risk_level','invest_horizon','f')" value="Submit"></center>
 			</form>
 		</div>
 
@@ -281,7 +281,7 @@
 				<input type="radio" name="invest_horizon" id='g' required value=1>4 year</input><br>
 				<input type="radio" name="invest_horizon" id='g' required value=1>5 year</input></center><br><br>
 
-				<input type="submit" onclick="showfield('invest_horizon','portf_type','g')" value="Submit">
+				<center><input type="submit" onclick="showfield('invest_horizon','portf_type','g')" value="Submit"></center>
 			</form>
 		</div>
 
