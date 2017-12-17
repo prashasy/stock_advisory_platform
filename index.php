@@ -8,18 +8,6 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
-	<?php
-	if(!(empty($_GET['msg'])) and  $_SESSION['index_page_redirect_counter'])
-	{
-		?>
-		<script type="text/javascript">
-		alert("You have signed up Successfully");
-		</script>
-		<?php
-		$_SESSION['index_page_redirect_counter']=false;
-	}
-
-	?>
 	<script type="text/javascript">
 	var li={};
 
@@ -148,8 +136,8 @@
 	}
 	.LoginHover{
 		position:absolute;
-		top:255px;
-		left:320px;
+		top:40%;
+		left:32%;
 
 		padding-left: 2px;
 		padding-right: 2px;
@@ -192,8 +180,8 @@
 
 	.field{
 		position:absolute;
-		top:255px;
-		left:320px;
+		top:40%;
+		left:32%;
 
 		padding-left: 2px;
 		padding-right: 2px;
@@ -238,7 +226,7 @@
 			<p id="inputtext"> We will also need your Age</p>
 			<form name='age_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Age" hidden></input>
-				<input type="number" id='b' name="age" required placeholder="Age"></input>
+				<input type="number" id='b' name="age" required placeholder="Age"></input><br>
 				<input type="submit" onclick="showfield('age','phone','b')" value="Submit">
 			</form>
 		</div>
@@ -247,7 +235,7 @@
 			<p id="inputtext"> We would contact you if important</p>
 			<form name='phone_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Phone" hidden></input>
-				<input type="number" id='c' name="phone" required placeholder="Phone"></input>
+				<input type="number" id='c' name="phone" required placeholder="Phone"></input><br>
 				<input type="submit" onclick="showfield('phone','aadhar','c')" value="Submit">
 			</form>
 		</div>
@@ -256,7 +244,7 @@
 			<p id="inputtext"> Please enter your 12 digit Aadhar Number</p>
 			<form name='aadhar_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Aadhar" hidden></input>
-				<input type="number" id='d' name="aadhar" required placeholder="Aadhar Number"></input>
+				<input type="number" id='d' name="aadhar" required placeholder="Aadhar Number"></input><br>
 				<input type="submit" onclick="showfield('aadhar','invest_amount','d')" value="Submit">
 			</form>
 		</div>
@@ -267,7 +255,7 @@
 				<input type="radio" id='e' name='invest_amount' required value=1>INR 25000</input><br>
 				<input type="radio" id='e' name='invest_amount' required value=2>INR 50000</input><br>
 				<input type="radio" id='e' name='invest_amount' required value=3>INR 75000</input><br>
-				<input type="radio" id='e' name='invest_amount' required value=4>INR 100000</input><br>
+				<input type="radio" id='e' name='invest_amount' required value=4>INR 100000</input><br><br>
 				<input type="submit" onclick="showfield('invest_amount','risk_level','e')" value="Submit">
 			</form>
 		</div>
@@ -276,7 +264,7 @@
 			<form name='risk_level_form' action='input.php' target="_blank" method="post">
 			<br><input type="radio" name="risk_level" id='f' required value=1>Risk Averse</input><br>
 				<input type="radio" name="risk_level" id='f' required value=2>Risk Neutral</input><br>
-				<input type="radio" name="risk_level" id='f' required value=3>Risk Seeker</input><br>
+				<input type="radio" name="risk_level" id='f' required value=3>Risk Seeker</input><br><br>
 				<input type="text" name="field_name" id='f' required value="Risk_level" hidden></input>
 				<input type="submit" onclick="showfield('risk_level','invest_horizon','f')" value="Submit">
 			</form>
@@ -290,7 +278,7 @@
 				<input type="radio" name="invest_horizon" id='g' required value=1>2 year</input><br>
 				<input type="radio" name="invest_horizon" id='g' required value=1>3 year</input><br>
 				<input type="radio" name="invest_horizon" id='g' required value=1>4 year</input><br>
-				<input type="radio" name="invest_horizon" id='g' required value=1>5 year</input><br>
+				<input type="radio" name="invest_horizon" id='g' required value=1>5 year</input><br><br>
 
 				<input type="submit" onclick="showfield('invest_horizon','portf_type','g')" value="Submit">
 			</form>
@@ -302,7 +290,7 @@
 				<input type="text" name="field_name" value="Portf_type" hidden></input>
 				<input type="radio" name="portf_type" id='h' required value=1>Point K2 Flagship portfolio</input><br>
 				<input type="radio" name="portf_type" id='h' required value=2>Sector portfolio</input><br>
-				<input type="radio" name="portf_type" id='h' required value=3>Formula Investing Portfolio</input><br>
+				<input type="radio" name="portf_type" id='h' required value=3>Formula Investing Portfolio</input><br><br>
 				<input type="submit" onclick="showfield('portf_type','portf_disp','h')" value="Submit">
 			</form>
 		</div>
