@@ -1,4 +1,4 @@
-<?php
+mysqli_query<?php
 if($_SERVER['REQUEST_METHOD']=='POST')
 	{	
 		$field=$_POST['field_name'];
