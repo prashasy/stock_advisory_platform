@@ -220,9 +220,9 @@
 
 	<body id="primary">		
 		<div class="w3-container w3-teal">
-		<h1 class="w3-container w3-teal"style="text-align:center"> Welcome to Point K2 </h1>
+		<h1 class="w3-container w3-teal "style="text-align:center"> Welcome to Point K2 </h1>
 		
-		<div class="LoginHover" id="name">
+		<div class="LoginHover" id="name" align="center">
 			<p id="inputtext"> Hello Investor! </p><p id="inputtext"> Welcome to the world of wealth creation !!! </p>
 				<div class=LoginContent>
 					<p id="inputtext"> Your name please</p>
@@ -234,7 +234,7 @@
 				</div>
 		</div>
 
-		<div class="field" id="age" style="text-align:left">
+		<div class="field" id="age" style="text-align:left" align="center">
 			<p id="inputtext"> We will also need your Age</p>
 			<form name='age_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Age" hidden></input>
@@ -243,7 +243,7 @@
 			</form>
 		</div>
 
-		<div class="field" id="phone" style="text-align:left">
+		<div class="field" id="phone" style="text-align:left" align="center">
 			<p id="inputtext"> We would contact you if important</p>
 			<form name='phone_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Phone" hidden></input>
@@ -252,7 +252,7 @@
 			</form>
 		</div>
 
-		<div class="field" id="aadhar" style="text-align:left">
+		<div class="field" id="aadhar" style="text-align:left" align="center">
 			<p id="inputtext"> Please enter your 12 digit Aadhar Number</p>
 			<form name='aadhar_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Aadhar" hidden></input>
@@ -260,7 +260,7 @@
 				<input type="submit" onclick="showfield('aadhar','invest_amount','d')" value="Submit">
 			</form>
 		</div>
-		<div class="field" id="invest_amount" style="text-align:left">
+		<div class="field" id="invest_amount" style="text-align:left" align="center">
 			<p id="inputtext"> Please enter investment amount</p>
 			<form name='invest_amount_form' action='input.php' target="_blank" method="post">
 				<br><input type="text" name="field_name" value="Invest_amount" hidden></input>
@@ -271,7 +271,7 @@
 				<input type="submit" onclick="showfield('invest_amount','risk_level','e')" value="Submit">
 			</form>
 		</div>
-		<div class="field" id="risk_level" style="text-align:left">
+		<div class="field" id="risk_level" style="text-align:left" align="center">
 			<p id="inputtext"> What risk level are you comfortable with?</p>
 			<form name='risk_level_form' action='input.php' target="_blank" method="post">
 			<br><input type="radio" name="risk_level" id='f' required value=1>Risk Averse</input><br>
@@ -282,7 +282,7 @@
 			</form>
 		</div>
 
-		<div class="field" id="invest_horizon" style="text-align:left">
+		<div class="field" id="invest_horizon" style="text-align:left" align="center">
 			<p id="inputtext"> What would be your Investment Horizon?</p>
 			<form name='invest_horizon_form' action='input.php' target="_blank" method="post">
 			<br><input type="text" name="field_name" value="Invest_horizon" hidden></input>
@@ -296,7 +296,7 @@
 			</form>
 		</div>
 
-		<div class="field" id="portf_type" style="text-align:left">
+		<div class="field" id="portf_type" style="text-align:left" align="center">
 			<p id="inputtext"> Please select your portfolio type</p>
 			<form name='portf_type_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Portf_type" hidden></input>
@@ -307,7 +307,7 @@
 			</form>
 		</div>
 
-		<div class="portfolio-container" id="portf_disp">
+		<div class="portfolio-container" id="portf_disp" align="center">
 			<p id="portfoliotext"> This is the portfolio we have crafted for you to invest in.</p>
 			<br>
 			<div class="portfolio" id="image">
