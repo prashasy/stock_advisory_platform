@@ -224,7 +224,7 @@
 		</div>
 
 		<div class="field" id="age" style="text-align:left" align="center">
-			<p id="inputtext"> We will also need your Age</p>
+			<center><p id="inputtext"> We will also need your Age</p></center>
 			<form name='age_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Age" hidden></input>
 				<center><input type="number" id='b' name="age" required placeholder="Age"></input><br><br></center>
@@ -233,7 +233,7 @@
 		</div>
 
 		<div class="field" id="phone" style="text-align:left" align="center">
-			<p id="inputtext"> We would contact you if important</p>
+			<center><p id="inputtext"> We would contact you if important</p></center>
 			<form name='phone_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Phone" hidden></input>
 				<center><input type="number" id='c' name="phone" required placeholder="Phone"></input></center><br>
@@ -242,7 +242,7 @@
 		</div>
 
 		<div class="field" id="aadhar" style="text-align:left" align="center">
-			<p id="inputtext"> Please enter your 12 digit Aadhar Number</p>
+			<center><p id="inputtext"> Please enter your 12 digit Aadhar Number</p></center>
 			<form name='aadhar_form' action='input.php' target="_blank" method="post">
 				<input type="text" name="field_name" value="Aadhar" hidden></input>
 				<center><input type="number" id='d' name="aadhar" required placeholder="Aadhar Number"></input></center><br>
@@ -250,7 +250,7 @@
 			</form>
 		</div>
 		<div class="field" id="invest_amount" style="text-align:left" align="center">
-			<p id="inputtext"> Please enter investment amount</p>
+			<center><p id="inputtext"> Please enter investment amount</p></center>
 			<form name='invest_amount_form' action='input.php' target="_blank" method="post">
 				<br><input type="text" name="field_name" value="Invest_amount" hidden></input>
 				<center><input type="radio" id='e' name='invest_amount' required value=1>INR 25000</input><br>
@@ -261,7 +261,7 @@
 			</form>
 		</div>
 		<div class="field" id="risk_level" style="text-align:left" align="center">
-			<p id="inputtext"> What risk level are you comfortable with?</p>
+			<center><p id="inputtext"> What risk level are you comfortable with?</p></center>
 			<form name='risk_level_form' action='input.php' target="_blank" method="post">
 			<br><center><input type="radio" name="risk_level" id='f' required value=1>Risk Averse</input><br>
 				<input type="radio" name="risk_level" id='f' required value=2>Risk Neutral</input><br>
@@ -272,7 +272,7 @@
 		</div>
 
 		<div class="field" id="invest_horizon" style="text-align:left" align="center">
-			<p id="inputtext"> What would be your Investment Horizon?</p>
+			<center><p id="inputtext"> What would be your Investment Horizon?</p></center>
 			<form name='invest_horizon_form' action='input.php' target="_blank" method="post">
 			<br><input type="text" name="field_name" value="Invest_horizon" hidden></input>
 				<center><input type="radio" name="invest_horizon" id='g' required value=1>1 year</input><br>
@@ -286,7 +286,7 @@
 		</div>
 
 		<div class="field" id="portf_type" style="text-align:left" align="center">
-			<p id="inputtext"> Please select your portfolio type</p>
+			<center><p id="inputtext"> Please select your portfolio type</p></center>
 			<form name='portf_type_form' action='input.php' target="_blank" method="post">
 				<center><input type="text" name="field_name" value="Portf_type" hidden></input>
 				<input type="radio" name="portf_type" id='h' required value=1>Point K2 Flagship portfolio</input><br>
